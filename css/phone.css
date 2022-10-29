@@ -1,0 +1,36 @@
+/*NavBar Iteam */
+.navbar {
+  flex-direction: column;
+  align-items: center;
+}
+
+#i-1>.title {
+  display: none;
+
+}
+
+ul>li {
+  font-size: 1.0rem;
+  align-items: center;
+}
+
+.ic-h{
+  /*border: 2px solid red;*/
+  padding: 0px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  
+}
+#t-1,
+#t-2{
+  font-size:1.0rem;
+}
+.ic>img{
+  width: 20px;
+}
+.clock{
+  display: none;
+}
+.splash{
+  font-size: 20px;
+}

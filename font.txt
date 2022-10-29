@@ -1,0 +1,4 @@
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Comfortaa', cursive;
+  font-family: 'Josefin Sans', sans-serif;
