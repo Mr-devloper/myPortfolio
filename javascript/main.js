@@ -50,7 +50,7 @@ showTime();
     // Type writer animation 
 let i = 0;
 let txt = 'Welcome,  Click to explore!!';
-let speed = 60s;
+let speed = 60;
 function typeWriter(){
     if (i < txt.length) {
         document.getElementById("tdata").innerHTML += txt.charAt(i);
