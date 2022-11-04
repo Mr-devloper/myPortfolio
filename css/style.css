@@ -45,7 +45,7 @@ html {
 }
 
 #first-section::before {
-  background: url('https://github.com/Mr-devloper/myPortfolio/blob/84a982861b3f267f3b32c40ea908d8adffe1756b/img/bg.jpg') no-repeat center center/cover;
+  background: url('/img/bg.jpg') no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
@@ -561,7 +561,7 @@ footer {
 }
 
 #contact::before {
-  background: url('https://github.com/Mr-devloper/myPortfolio/blob/84a982861b3f267f3b32c40ea908d8adffe1756b/img/map.jpg') no-repeat center center/cover;
+  background: url('/img/map.jpg') no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
