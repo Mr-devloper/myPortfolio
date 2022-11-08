@@ -24,7 +24,7 @@ html {
 }
 
 .ic-h>img {
-  width: 3VW;
+  width: 2VW;
   padding: 0.5vw;
 }
 
@@ -83,7 +83,7 @@ html {
 
 .title {
   display: inline-flex;
-  margin: 8px 0px 2px 16px;
+  margin: 8px 0px 4px 16px;
   font-size: 1rem;
   font-family: 'Rubik', sans-serif;
   align-items: center;
