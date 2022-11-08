@@ -12,20 +12,19 @@ html {
   color: cyan;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid cyan;
+  border-bottom: 1px solid #00ffff;
   z-index: 2;
-
 }
 
 .ic-h {
   display: flex;
   align-items: center;
-
+  width: 48vw;
 }
 
-.ic-h>img {
-  width: 3VW;
-  padding: 0.5vw;
+.ic-h > img {
+  width: 6%;
+  padding: 1%;
 }
 
 .navbar::before {
@@ -40,12 +39,8 @@ html {
   opacity: 0.7;
 }
 
-#frist-section {
-  position: relative;
-}
-
 #first-section::before {
-  background: url('../img/bg.jpg') no-repeat center center/cover;
+  background: url("../img/bg.jpg") no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
@@ -61,21 +56,15 @@ html {
   /* border: 2px solid red;*/
   padding: 0px 0px;
   display: flex;
-  flex-wrap: wrap;
-}
-
-#i-1 {
-  display: flex;
-  margin: 8px 0px 0px 0px;
+  height: 8vh;
 }
 
 #i-2 {
   flex-grow: 2;
-  display: flex;
-  flex-flow: row-reverse;
+  justify-content: flex-end;
 }
 
-.ic>img {
+.ic > img {
   display: inline-block;
   width: 40px;
   margin-top: 4px;
@@ -85,26 +74,24 @@ html {
   display: inline-flex;
   margin: 8px 0px 4px 16px;
   font-size: 1rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   align-items: center;
 }
 
-ul>li {
+ul > li {
   display: inline-block;
   padding: 5px;
   font-size: 1rem;
   font-weight: bold;
-
 }
 
 .link {
   text-decoration: none;
   color: white;
-  margin-left: 3px;
-  font-family: 'Noto Sans', sans-serif;
-
+  margin-left: 4vw;
+  font-family: "Noto Sans", sans-serif;
 }
-.link:hover{
+.link:hover {
   color: cyan;
 }
 
@@ -113,15 +100,15 @@ ul>li {
   background-color: white;
   color: Black;
   border-radius: 2px;
-  padding: 0.5vh 0.8vw 0.5vh 0.8vw ;
+  margin-right: 7vw;
+  margin-right: 7vw;
+  padding: 0.5vh 0.8vw 0.5vh 0.8vw;
   /* border-radius: 2px solid red;*/
 }
 
 #a-3:hover {
   color: black;
   background-color: cyan;
-
-
 }
 
 /* font-family: 'Josefin Sans', sans-serif;*/
@@ -129,72 +116,68 @@ ul>li {
 .container {
   /* border: 2px red solid;*/
   position: relative;
-  padding: 16px 16px;
-  padding-bottom: 0px;
+  padding: 15px;
   margin-top: 12px;
   display: flex;
   flex-flow: column;
   border-bottom: 2px solid cyan;
-}
-
-.title2,
-.sub,
-.prop {
-  /*border: 2px solid red;*/
-  margin: 0px;
+  height: 80vh;
+  width: 100vw;
 }
 
 .h-1 {
-  border-start-end-radius: 20px;
-  border-end-start-radius: 20px;
+  border-start-end-radius: 4vw;
+  border-end-start-radius: 3vw;
   display: inline-flex;
   background-color: cyan;
-  font-size: 3rem;
+  font-size: 5rem;
   padding: 14px 14px;
   font-weight: bold;
   color: black;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   box-shadow: 2px 4px 7px black;
 }
 
 .h-2 {
   margin-top: 12px;
   margin-left: 10px;
-  font-size: 1.8rem;
+  font-size: 4.8rem;
+  font-weight: bold;
   color: white;
   padding: 0px 0px;
-  font-family: 'Josefin Sans', sans-serif
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .h-3 {
-  margin-top: 8px;
-  margin-left: 10px;
-  font-size: 1.3rem;
-  padding: 0px 0px;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  font-size: 2.3rem;
   color: white;
-  font-family: 'Josefin Sans', sans-serif
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .hire {
   text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Baloo Bhai 2", cursive;
   font-size: 1.2rem;
   padding: 8px 16px 8px 16px;
-  color: #0B1A27;
+  color: #0b1a27;
   border: 1px cyan solid;
   background-color: cyan;
   border-radius: 25px;
-
 }
-.hire:hover{
+.hire:hover {
   box-shadow: 1px 1px 8px 1px rgb(126, 224, 224);
 }
 
 .hirer {
   display: flex;
-  flex-flow: row-reverse;
-  margin-top: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
   margin-bottom: 8px;
+  height: 43vw;
+  width: 90vw;
 }
 
 .adrs,
@@ -227,7 +210,7 @@ ul>li {
   color: cyan;
   flex-grow: 2;
   text-shadow: 5px 6px 3px black;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   margin: auto auto;
 }
 
@@ -251,7 +234,7 @@ ul>li {
   float: left;
   clear: top bottom left right;
   left: 4px;
-  margin-top: 1px;
+  margin-top: 69vh;
   z-index: 1;
 }
 
@@ -286,23 +269,22 @@ ul>li {
 .facebook,
 .insta,
 .tw {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   padding: 4px;
   border-left: 2px solid white;
   display: none;
-
 }
 
-.ic-1:hover+.facebook {
+.ic-1:hover + .facebook {
   display: inline-block;
 }
 
-.ic-2:hover+.insta {
+.ic-2:hover + .insta {
   display: inline-block;
 }
 
-.ic-3:hover+.tw {
+.ic-3:hover + .tw {
   display: inline-block;
 }
 
@@ -323,20 +305,18 @@ ul>li {
 
   border: 2px solid cyan;
   border-radius: 50%;
-
-
 }
 
 #name {
   padding-left: 13px;
   color: cyan;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #about-box {
   border: solid cyan 2px;
   padding: 4px 4px;
-  background-color: #0B1A27;
+  background-color: #0b1a27;
   margin: 0px 8px 0px 8px;
   border-radius: 5px;
   width: 60vw;
@@ -349,8 +329,7 @@ ul>li {
   font-size: 1.2rem;
   line-height: 1.9em;
   padding-left: 14px;
-  font-family: 'Comfortaa', cursive;
-
+  font-family: "Comfortaa", cursive;
 }
 
 #m {
@@ -359,21 +338,16 @@ ul>li {
   padding: 0px 3px 0px 3px;
   border-radius: 1px;
   word-spacing: 0.4em;
-
 }
 
 #about {
   position: relative;
   display: flex;
   justify-content: center;
-}
-
-#about {
-  background-color: #12344A;
+  background-color: #12344a;
   padding: 50px 0px 30px 0px;
   border-bottom: 1px solid cyan;
 }
-
 /*Footer */
 footer {
   background-color: black;
@@ -385,7 +359,7 @@ footer {
 
 /*Third Section*/
 #section-third {
-  background-color: #12344A;
+  background-color: #12344a;
   padding: 16px;
   color: white;
   margin-bottom: 0px;
@@ -396,28 +370,24 @@ footer {
 }
 
 #base {
-  background-color: #0B1A27;
+  background-color: #0b1a27;
   margin: 8px 0px 8px 0px;
   padding: 0px;
   border-radius: 8px;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   width: 90vw;
-
 }
 
 .prog {
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .p-container {
   display: flex;
   flex-direction: column;
-
-
 }
 
 #html,
@@ -431,7 +401,6 @@ footer {
   width: 0%;
   padding: 10px;
   border-radius: 8px;
-
 }
 
 /*Animation*/
@@ -443,7 +412,6 @@ footer {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   overflow: hidden;
-
 }
 
 #css {
@@ -454,7 +422,6 @@ footer {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   overflow: hidden;
-
 }
 
 #js {
@@ -464,7 +431,6 @@ footer {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-
 }
 
 #c {
@@ -474,7 +440,6 @@ footer {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-
 }
 
 @keyframes anime-1 {
@@ -486,7 +451,6 @@ footer {
     width: 88vw;
   }
 }
-
 
 @keyframes anime-2 {
   from {
@@ -511,12 +475,6 @@ footer {
 @keyframes anime-4 {
   from {
     width: 0vw;
-
-
-
-
-
-
   }
 
   to {
@@ -534,7 +492,7 @@ footer {
 }
 
 #contact::before {
-  background: url('../img/map.jpg') no-repeat center center/cover;
+  background: url("../img/map.jpg") no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
@@ -544,7 +502,7 @@ footer {
   z-index: -1;
   opacity: 0.9;
 }
-.clock{
+.clock {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -553,12 +511,11 @@ footer {
   color: cyan;
   left: 30vw;
   font-size: 1.1rem;
-letter-spacing: 5px;
-font-family: 'Orbitron', sans-serif;
-
+  letter-spacing: 5px;
+  font-family: "Orbitron", sans-serif;
 }
 
-.splash{
+.splash {
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -570,31 +527,37 @@ font-family: 'Orbitron', sans-serif;
   height: 100%;
   width: 100%;
   transform: translate(-50%, -50%);
-  background-color:#12344A;
+  background-color: #12344a;
   transition: all ease-in-out 600ms;
   z-index: 10;
   font-family: monospace;
 }
-.hidden{
+.hidden {
   transition: 0.5s;
   display: none;
 }
-.splash-header{
+.splash-header {
   /* height: 90%; */
   color: cyan;
   font-size: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.logo-img>img{
+.logo-img > img {
   width: 22%;
-
-
 }
-.logo-img{
+.logo-img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.sub {
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.title2 {
+  padding: 0vw;
+  margin-top: 4vh;
+  margin-left: 4vw;
 }
