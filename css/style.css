@@ -13,7 +13,6 @@ html {
   position: sticky;
   top: 0;
   border-bottom: 1px solid cyan;
-  padding: 4px 4px;
   z-index: 2;
 
 }
@@ -25,7 +24,8 @@ html {
 }
 
 .ic-h>img {
-  width: 45px;
+  width: 3VW;
+  padding: 0.5vw;
 }
 
 .navbar::before {
@@ -84,7 +84,7 @@ html {
 .title {
   display: inline-flex;
   margin: 8px 0px 2px 16px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'Rubik', sans-serif;
   align-items: center;
 }
@@ -92,30 +92,34 @@ html {
 ul>li {
   display: inline-block;
   padding: 5px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
 
 }
 
 .link {
   text-decoration: none;
-  color: cyan;
+  color: white;
   margin-left: 3px;
   font-family: 'Noto Sans', sans-serif;
+
+}
+.link:hover{
+  color: cyan;
 }
 
 #a-3 {
   font-weight: bold;
-  background-color: cyan;
+  background-color: white;
   color: Black;
   border-radius: 2px;
-  padding: 4px 10px;
+  padding: 0.5vh 0.8vw 0.5vh 0.8vw ;
   /* border-radius: 2px solid red;*/
 }
 
 #a-3:hover {
   color: black;
-  background-color: white;
+  background-color: cyan;
 
 
 }
@@ -199,14 +203,6 @@ ul>li {
   /*border: solid 2px red;*/
   color: white;
 }
-
-.im,
-.im2,
-im3 {
-  /*border:2px solid red;*/
-
-}
-
 .adress {
   /* border:2px solid red;*/
   margin-top: 13px;
@@ -228,7 +224,6 @@ im3 {
   display: inline-flex;
   font-size: 0.9rem;
   padding: 2px;
-  /*font-style: italic;*/
   color: cyan;
   flex-grow: 2;
   text-shadow: 5px 6px 3px black;
@@ -246,30 +241,6 @@ im3 {
 .lic {
   width: 20px;
 }
-
-#a-1:hover {
-  color: black;
-  background-color: white;
-  border-radius: 23px;
-  padding: 4px;
-
-}
-
-#a-2:hover {
-  color: black;
-  background-color: white;
-  border-radius: 23px;
-  padding: 4px;
-}
-
-#a-4:hover {
-  color: black;
-  background-color: white;
-  border-radius: 23px;
-  padding: 4px;
-
-}
-
 /*Start Float social*/
 
 .iccontainer {
@@ -575,11 +546,14 @@ footer {
 }
 .clock{
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   color: cyan;
   left: 30vw;
-  font-size: 20px;
+  font-size: 1.1rem;
 letter-spacing: 5px;
-margin-top: 5vh;
 font-family: 'Orbitron', sans-serif;
 
 }
