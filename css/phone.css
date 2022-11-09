@@ -14,7 +14,6 @@ ul>li {
 }
 
 .ic-h{
-  /*border: 2px solid red;*/
   padding: 0px;
   margin-top: 2px;
   margin-bottom: 0px;
@@ -34,13 +33,15 @@ ul>li {
 .splash{
   font-size: 20px;
 }
-.h1{
+.h-1{
+  font-size: 3rem;
+  
+}
+.h-2{
   font-size: 2rem;
+  margin-top: 0.3vh;
 }
-.h2{
-  font-size: 1.5rem;
-}
-.h3{
+.h-3{
   font-size: 1rem;
 }
 #a-3 {
