@@ -53,7 +53,6 @@ html {
 
 #i-1,
 #i-2 {
-  /* border: 2px solid red;*/
   padding: 0px 0px;
   display: flex;
   height: 8vh;
@@ -122,7 +121,11 @@ ul > li {
   flex-flow: column;
   border-bottom: 2px solid cyan;
   height: 80vh;
+<<<<<<< HEAD
   
+=======
+  width: 100%;
+>>>>>>> 4c608112a5b35782381168891fd8eb3211b0bd37
 }
 
 .h-1 {
