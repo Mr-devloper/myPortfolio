@@ -19,7 +19,7 @@ html {
 .ic-h {
   display: flex;
   align-items: center;
-  width: 48vw;
+  width: fit-content;
 }
 
 .ic-h > img {
@@ -122,7 +122,7 @@ ul > li {
   flex-flow: column;
   border-bottom: 2px solid cyan;
   height: 80vh;
-  width: 98vw;
+  
 }
 
 .h-1 {
