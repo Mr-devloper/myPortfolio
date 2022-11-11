@@ -91,7 +91,7 @@ ul > li {
   color: aliceblue;
   margin-left: 5vw;
   font-family: "Comfortaa", cursive;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 .link:hover {
@@ -121,26 +121,28 @@ ul > li {
 }
 
 .h-1 {
-  border-start-end-radius: 3rem;
-  border-end-start-radius: 3rem;
+  
   display: inline-flex;
-  background-color: cyan;
-  font-size: 4rem;
-  padding: 14px 14px;
+  
+  font-size: 6rem;
+ 
   font-weight: bold;
-  color: black;
+  color: cyan;
   font-family: "Josefin Sans", sans-serif;
-  box-shadow: 2px 4px 7px black;
+  animation-name: intro;
+  animation-duration: 2s;
+
+
 }
 
 .h-2 {
-  margin-top: 12px;
-  margin-left: 10px;
+  margin-left: 2%;
   font-size: 3.8rem;
   font-weight: bold;
   color: white;
   padding: 0px 0px;
   font-family: "Josefin Sans", sans-serif;
+
 }
 
 .h-3 {
@@ -242,7 +244,7 @@ ul > li {
 .ic-2,
 .ic-3 {
   margin-top: 0px;
-  background-color: cyan;
+  background-color: rgb(0, 255, 255);
   padding-top: 0px;
 }
 
@@ -501,7 +503,7 @@ footer {
 }
 .clock {
   position: absolute;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   height: 100%;
