@@ -70,6 +70,9 @@ setTimeout( typeWriter, 1000);
        } else {
         x[0].style.display = 'none';
         i = 0;
-       } 
+       }
+       function cls(){
+        x[0].style.display = 'none';
+       }
     }
 }
