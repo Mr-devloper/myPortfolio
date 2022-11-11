@@ -526,7 +526,9 @@ footer {
   height: 100%;
   width: 100%;
   transform: translate(-50%, -50%);
-  background-color: #12344a;
+  background-color: rgba(18, 52, 74, 0.714);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
   transition: all ease-in-out 600ms;
   z-index: 10;
   font-family: monospace;
