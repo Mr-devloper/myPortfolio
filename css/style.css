@@ -12,19 +12,20 @@ html {
   color: cyan;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #00ffff;
   z-index: 2;
+  margin-top: 0vh;
+  padding:  1.2% 0% 0% 0% ;
 }
 
 .ic-h {
   display: flex;
   align-items: center;
-  width: fit-content;
+  width: 48vw;
 }
 
 .ic-h > img {
-  width: 6%;
-  padding: 1%;
+  width: 5%;
+  margin-left: 1%;
 }
 
 .navbar::before {
@@ -60,7 +61,8 @@ html {
 #i-2 {
   flex-grow: 2;
   width: 100vw;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .ic > img {
@@ -73,54 +75,49 @@ html {
   display: inline-flex;
   margin: 8px 0px 4px 16px;
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+
   align-items: center;
 }
 
 ul > li {
   display: inline-block;
-  padding: 5px;
-  font-size: 1rem;
-  font-weight: bold;
+  padding: 0.2vw;
+  list-style: none;
 }
 
 .link {
   text-decoration: none;
-  color: white;
-  margin-left: 4vw;
-  font-family: "Noto Sans", sans-serif;
+  color: aliceblue;
+  margin-left: 5vw;
+  font-family: "Comfortaa", cursive;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 .link:hover {
   color: cyan;
 }
-
-#a-3 {
-  font-weight: bold;
-  background-color: white;
-  color: Black;
-  border-radius: 2px;
-  margin-right: 7vw;
-  margin-right: 7vw;
-  padding: 0.5vh 0.8vw 0.5vh 0.8vw;
-  /* border-radius: 2px solid red;*/
-}
-
-#a-3:hover {
-  color: black;
-  background-color: cyan;
-}
-
 /* font-family: 'Josefin Sans', sans-serif;*/
 
+.container::before {
+  content: "";
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.7;
+}
 .container {
   /* border: 2px red solid;*/
   position: relative;
-  padding: 15px;
-  margin-top: 12px;
+  padding: 5%  1%  1% 1% ;
+  
   display: flex;
   flex-flow: column;
-  border-bottom: 2px solid cyan;
-  height: 80vh;
+  height: 75vh;
 }
 
 .h-1 {
@@ -128,7 +125,7 @@ ul > li {
   border-end-start-radius: 3rem;
   display: inline-flex;
   background-color: cyan;
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 14px 14px;
   font-weight: bold;
   color: black;
@@ -139,7 +136,7 @@ ul > li {
 .h-2 {
   margin-top: 12px;
   margin-left: 10px;
-  font-size: 4.8rem;
+  font-size: 3.8rem;
   font-weight: bold;
   color: white;
   padding: 0px 0px;
@@ -149,7 +146,7 @@ ul > li {
 .h-3 {
   margin-top: 2vh;
   margin-left: 4vw;
-  font-size: 2.3rem;
+  font-size: 1.3rem;
   color: white;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -311,13 +308,14 @@ ul > li {
 }
 
 #about-box {
-  border: solid cyan 2px;
-  padding: 4px 4px;
-  background-color: #0b1a27;
+  padding: 8px 8px;
+  background-color: #0b1a2756;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   margin: 0px 8px 0px 8px;
-  border-radius: 5px;
+  border-radius: 20px;
   width: 60vw;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 0px 8px 32px 0 rgba(0, 255, 255, 0.773);
 }
 
 #t-1,
@@ -341,7 +339,7 @@ ul > li {
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: #12344a;
+ background-color: #12344a; 
   padding: 50px 0px 30px 0px;
   border-bottom: 1px solid cyan;
 }
@@ -352,6 +350,8 @@ footer {
   font-style: italic;
   padding: 12px;
   text-align: center;
+  font-size: 1rem;
+  font-family: monospace;
 }
 
 /*Third Section*/
@@ -506,8 +506,8 @@ footer {
   align-items: center;
   height: 100%;
   color: cyan;
-  left: 30vw;
-  font-size: 1.1rem;
+  left: 24vw;
+  font-size: 1rem;
   letter-spacing: 5px;
   font-family: "Orbitron", sans-serif;
 }
@@ -557,4 +557,7 @@ footer {
   padding: 0vw;
   margin-top: 4vh;
   margin-left: 4vw;
+}
+.active{
+  color:cyan
 }
