@@ -60,3 +60,16 @@ function typeWriter(){
 }
 setTimeout( typeWriter, 1000);
 }
+{
+    let x = document.getElementsByClassName("side-menu")
+    let i = 0;
+    function toggle(){
+       if (i === 0) {
+        x[0].style.display = 'block';
+        i = 1;
+       } else {
+        x[0].style.display = 'none';
+        i = 0;
+       } 
+    }
+}

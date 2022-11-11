@@ -56,3 +56,6 @@ ul>li {
 .container{
   height: 78vh;
 }
+#i-2{
+  display: none;
+}
