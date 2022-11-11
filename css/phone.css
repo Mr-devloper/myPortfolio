@@ -59,3 +59,7 @@ ul>li {
 #i-2{
   display: none;
 }
+.side-menu{
+  height: 54.5vh;
+  width: 45vw;
+}

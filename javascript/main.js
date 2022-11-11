@@ -71,8 +71,9 @@ setTimeout( typeWriter, 1000);
         x[0].style.display = 'none';
         i = 0;
        }
-       function cls(){
+      
+    } 
+    function cls(){
         x[0].style.display = 'none';
        }
-    }
 }
