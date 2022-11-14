@@ -61,6 +61,7 @@ function typeWriter(){
 setTimeout( typeWriter, 1000);
 }
 {
+    
     let x = document.getElementsByClassName("side-menu")
     let i = 0;
     function toggle(){
