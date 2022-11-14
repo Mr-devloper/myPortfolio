@@ -345,16 +345,7 @@ ul > li {
   padding: 50px 0px 30px 0px;
   border-bottom: 1px solid cyan;
 }
-/*Footer */
-footer {
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 12px;
-  text-align: center;
-  font-size: 1rem;
-  font-family: monospace;
-}
+
 
 /*Third Section*/
 #section-third {
