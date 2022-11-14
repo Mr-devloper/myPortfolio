@@ -24,7 +24,7 @@ ul>li {
   font-size:1.0rem;
 }
 .ic-h>img{
-  width: 6vw;
+  width: 20%;
   padding-left: 2vw;
 }
 .clock{
@@ -51,7 +51,7 @@ ul>li {
   margin-left: 1vw;
 }
 .title{
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 .container{
   height: 78vh;
@@ -62,4 +62,5 @@ ul>li {
 .side-menu{
   height: 54.5vh;
   width: 45vw;
+  font-size: 0.7rem;
 }
