@@ -64,3 +64,6 @@ ul>li {
   width: 45vw;
   font-size: 0.7rem;
 }
+.side-bar-menu{
+  display: flex;
+}

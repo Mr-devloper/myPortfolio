@@ -616,3 +616,17 @@ ul > li {
 .side-menu{
   display: none;
 }
+.menubtn{
+  background: transparent;
+  color: cyan;
+  font-size: x-large;
+  border: none;
+  outline: none;
+  margin-right: 2.8vw;
+}
+.side-bar-menu{
+  display: none;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-end;
+}
