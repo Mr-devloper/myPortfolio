@@ -552,15 +552,12 @@ ul > li {
   -webkit-backdrop-filter:blur(5px);
   height: 89vh;
   width: 27vw;
-   clear: top bottom left right;
+  clear: top bottom left right;
   float: right;
   right: 0px;
   display: flex;
-
   justify-content: center;
   z-index: 2;
- 
-  
 }
 .side-menu ul{
   list-style: none;
@@ -617,4 +614,23 @@ ul > li {
   width: 100vw;
   align-items: center;
   justify-content: flex-end;
+}
+.social-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+.icon{
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+.icon>img{
+  width: 35%;
+  filter: saturate(0);
+}
+.icon>img:hover{
+  filter: saturate(1);
 }

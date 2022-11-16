@@ -67,3 +67,6 @@ ul>li {
 .side-bar-menu{
   display: flex;
 }
+.iccontainer{
+  display: none;
+}
