@@ -23,20 +23,19 @@ function typeWriter(){
 }
 setTimeout( typeWriter, 1000);
 }
-{
-    const e = document.getElementById("menuExpand")
+/*{
+    
     let x = document.getElementsByClassName("side-menu")
     let i = 0;
     function toggle(){
        if (i === 0) {
         x[0].style.display = 'block';
-        e.innerHTML = "&times"
-        e.style.fontSize = "xx-large"
+        
+        
         i = 1;
        } else {
         x[0].style.display = 'none';
-        e.innerHTML = "☰";
-        e.style.fontSize = "x-large"
+
         i = 0;
        }
       
@@ -47,4 +46,14 @@ setTimeout( typeWriter, 1000);
         e.style.fontSize = "x-large"
         i = 0;
        }
+}*/
+{
+    let menutoggle = document.querySelector('.toggle');
+    let sideBar = document.querySelector('.side-menu');
+    menutoggle.onclick = function(){
+          menutoggle.classList.toggle('active'); 
+          sideBar.classList.toggle('active');
+
+    }
+
 }
