@@ -157,19 +157,21 @@ ul > li {
 .hire {
   text-decoration: none;
   font-family: "Baloo Bhai 2", cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   padding: 0.1rem 1.5rem  0.1rem  1.5rem;
   color: #0b1a27;
-  background-color: cyan;
+  background-color: transparent;
   border-radius: 0.2rem;
+  color: cyan;
+  border: 2px solid cyan;
+  transition: 0.5s ease;
 }
 .hire:hover {
   box-shadow: 1px 1px 8px 1px rgb(126, 224, 224);
-  background-color: rgba(0, 255, 255, 0.791);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  color:white;
+  background-color: rgb(11, 228, 228);
+  color: #0b1a27;
+  font-size: 1.2rem;
 }
 
 .hirer {
@@ -561,13 +563,14 @@ ul > li {
   display: flex;
   flex-direction: column;
   z-index: 2;
-  transition: 0.5s ease;
+ 
 }
 .side-menu{
   display: none;
 }
 .side-menu.active{
   display: flex;
+  transition: 1s ease;
 
 }
 .side-menu ul{
@@ -628,6 +631,7 @@ ul > li {
   width: 100vw;
   align-items: center;
   justify-content: flex-end;
+  display: none;
 }
 .toggle{
   position: relative;
