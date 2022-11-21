@@ -98,18 +98,17 @@ a4.onclick = function(){
 
     icOne.onclick = function(){
         
-        window.open("https://www.facebook.com/M.R.H.R.71")
+        window.open("https://www.facebook.com/M.R.H.R.71");
 
     }
     icTwo.onclick = function(){
         
-        window.open("https://github.com/Mr-devloper")
+        window.open("https://github.com/Mr-devloper");
 
     }
     icThree.onclick = function(){
         
-        window.open("https://twitter.com/Mizanur14720321")
-
+        window.open("https://twitter.com/Mizanur14720321");
     }
 
 }
