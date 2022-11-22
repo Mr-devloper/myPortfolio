@@ -13,40 +13,18 @@ splashScreen.addEventListener('click',()=>{
     // Type writer animation 
 let i = 0;
 let txt = 'Welcome,  Click to explore!!';
-let speed = 60;
+let speed = 80;
 function typeWriter(){
     if (i < txt.length) {
         document.getElementById("tdata").innerHTML += txt.charAt(i);
         i++;
+        
         setTimeout(typeWriter, speed)
     }
 }
 setTimeout( typeWriter, 1000);
 }
-/*{
-    
-    let x = document.getElementsByClassName("side-menu")
-    let i = 0;
-    function toggle(){
-       if (i === 0) {
-        x[0].style.display = 'block';
-        
-        
-        i = 1;
-       } else {
-        x[0].style.display = 'none';
 
-        i = 0;
-       }
-      
-    } 
-    function cls(){
-        x[0].style.display = 'none';
-        e.innerHTML = "☰";
-        e.style.fontSize = "x-large"
-        i = 0;
-       }
-}*/
 {
     let menutoggle = document.querySelector('.toggle');
     let sideBar = document.querySelector('.side-menu');
@@ -111,4 +89,19 @@ a4.onclick = function(){
         window.open("https://twitter.com/Mizanur14720321");
     }
 
+}
+{
+    const observer = new IntersectionObserver((entries) =>{
+        entries.forEach((entry) =>{
+            console.log(entry)
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+
+            }
+        });
+    });
+    const hiddenElements = document.querySelectorAll('.hiddens')
+    hiddenElements.forEach((e1) => observer.observe(e1));
 }
