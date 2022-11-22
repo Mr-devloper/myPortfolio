@@ -315,11 +315,13 @@ border-bottom: 2px solid cyan;
   border: 2px solid cyan;
   border-radius: 50%;
 }
+#dp{transition-delay: 100ms;}
 
 #name {
   padding-left: 13px;
   color: cyan;
   font-family: "Josefin Sans", sans-serif;
+  transition-delay: 300ms;
 }
 
 #about-box {
@@ -331,6 +333,7 @@ border-bottom: 2px solid cyan;
   border-radius: 20px;
   width: 60vw;
   box-shadow: 0px 8px 32px 0 rgba(0, 255, 255, 0.773);
+  overflow: hidden;
 }
 
 #t-1,
@@ -340,6 +343,10 @@ border-bottom: 2px solid cyan;
   line-height: 1.9em;
   padding-left: 14px;
   font-family: "Comfortaa", cursive;
+  
+}
+.text{
+  transition-delay: 500ms;
 }
 
 #m {
@@ -356,7 +363,7 @@ border-bottom: 2px solid cyan;
   justify-content: center;
  background-color: #12344a; 
   padding: 50px 0px 30px 0px;
-  border-bottom: 1px solid cyan;
+  
 }
 
 
@@ -382,10 +389,14 @@ border-bottom: 2px solid cyan;
 }
 
 .prog {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: flex;
-  justify-content: center;
+  width: 100%;
+  margin: 6% 4% 6% 4%;
   font-family: "Josefin Sans", sans-serif;
+}
+.prog span{
+  padding:  2% 0% 3% 0% ;
 }
 
 .p-container {
@@ -658,7 +669,7 @@ border-bottom: 2px solid cyan;
 .toggle span{
   position: absolute;
   width: 58%;
-  height: 5%;
+  height: 7%;
   background: cyan;  
   border-radius: 4px;
   transition: 0.5s;
@@ -688,4 +699,16 @@ border-bottom: 2px solid cyan;
 .toggle.active span:nth-child(3)
 {
   transform: translateX(-60px);
+}
+.p1{
+transition-delay: 200ms;
+}
+.p2{
+  transition-delay: 400ms;
+}
+.p3{
+  transition-delay: 600ms;
+}
+.p4{
+  transition-delay: 800ms;
 }
